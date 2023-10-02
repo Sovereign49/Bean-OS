@@ -98,6 +98,7 @@ void _start(void) {
     const char msg[] = "Hello World\n";
 
     flanterm_write(ft_ctx, msg, sizeof(msg));
+
     
     /*
     // Note: we assume the framebuffer model is RGB with 32-bit pixels.
